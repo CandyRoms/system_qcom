@@ -67,6 +67,7 @@ LOCAL_CFLAGS += \
     -Wno-enum-conversion \
     -Wno-unused-parameter \
     -Wno-error \
+    -Wno-implicit-function-declaration
 
 LOCAL_SRC_FILES := qsap_api.c \
                    qsap.c
